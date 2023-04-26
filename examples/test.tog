@@ -1,0 +1,12 @@
+.data:
+    x: u8
+    y: u8 
+    z: u8
+
+.start:
+    set $x, 2
+    set $y, 1
+    add x, y
+    set $z, pop 
+    echo $z
+    halt
